@@ -1,95 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+  <link rel="icon" href="./assets/devchallenges.png" />
+  <link rel="stylesheet" href="./css/style.css" />
 
-    <link rel="icon" href="devchallenges.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+  <title>Devchallenges - My gallery Challenge</title>
+</head>
+  
+<body>
+<div class="contenair">
+  <header>
+    <img src="./assets/profilePhoto.png" alt="Rodney Cotton">
+    <h1>Rodney Cotton</h1>
+    <p>Helsinki, Finland</p>
+    <div class="info">
+      <p><span>100</span>Posts</p>
+      <p><span>2,242</span>Followers</p>
+      <p><span>1,432</span>Following</p>
     </div>
-  </body>
+  </header>  
+
+  <main>
+    <section class="card">
+      <img src="./assets/photo1.png" alt="Photo of an apartment interior" class="card__grid-1">
+      <img src="./assets/photo2.png" alt="Photo of an apartment interior" class="card__grid-2">
+      <img src="./assets/photo3.png" alt="Photo of an apartment interior" class="card__grid-3">
+      <img src="./assets/photo_4.png" alt="Photo of an apartment interior" class="card__grid-4">
+      <img src="./assets/photo5.png" alt="Photo of an apartment interior" class="card__grid-5">
+      <img src="./assets/photo6.png" alt="Photo of an apartment interior" class="card__grid-6">
+    </section>
+  </main>
+</div>
+
+  <footer>
+    <p>Created by <a href="https://github.com/MathysCogne">Mathys Cogné</a> - devChallenges.io</p>
+  </footer>
+
+</body>
 </html>
